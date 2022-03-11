@@ -26,7 +26,7 @@ class FizzBuzzCalculatorTest {
     public void shouldReturnFuzzBuzzWhen15(){
 
         FizzBuzzCalculator fizzFuzzCalculator=new FizzBuzzCalculator();
-        Object result= FizzBuzzCalculator.convertValue(15);
+        Object result= FizzBuzzCalculator.convertValue(30);
         Assertions.assertEquals("FuzzBuzz",result);
     }
 }
