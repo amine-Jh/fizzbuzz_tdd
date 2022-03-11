@@ -17,4 +17,13 @@ class FuzzBuzzTest {
     }
 
 
+    @Test
+    public void shouldReturn_1_2_Fuzz_4_When4(){
+
+        List<Object> expected = Arrays.asList(1,2,"fuzz",4);
+        List<Object> result   = FuzzBuzz.fuzzBuzzList(4);
+        Assertions.assertEquals(expected,result);
+    }
+
+
 }

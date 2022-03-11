@@ -14,6 +14,11 @@ public class FuzzBuzz {
              return  Arrays.asList(1,2,"fuzz");
          }
 
+         for( int i=0;i<n;i++ ){
+
+             result.add(FizzBuzzCalculator.convertValue(i+1));
+         }
+
          return result;
 
      }
