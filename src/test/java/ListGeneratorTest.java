@@ -9,10 +9,9 @@ class ListGeneratorTest {
 
 
     @Test
-    public void generateList(){
+    public void shouldReturnAListOfObject(){
 
        List  liste=  ListGenerator.createList();
-
         Assertions.assertNotNull(liste);
         Assertions.assertInstanceOf(List.class,liste);
 
