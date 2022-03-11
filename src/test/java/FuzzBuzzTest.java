@@ -25,5 +25,13 @@ class FuzzBuzzTest {
         Assertions.assertEquals(expected,result);
     }
 
+    @Test
+    public void shouldReturn_1_2_FuzzWhen10(){
+
+        List<Object> expected = Arrays.asList(1,2,"fuzz",4,"buzz","fuzz",7,8,"fuzz","buzz");
+        List<Object> result   = FuzzBuzz.fuzzBuzzList(10);
+        Assertions.assertEquals(expected,result);
+    }
+
 
 }
