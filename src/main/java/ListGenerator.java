@@ -4,6 +4,8 @@ import java.util.List;
 public class ListGenerator {
     public static List createList() {
 
-        return new ArrayList();
+        List <Object> liste =new ArrayList<>();
+
+        return liste;
     }
 }

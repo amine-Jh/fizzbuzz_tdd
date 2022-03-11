@@ -13,9 +13,8 @@ class ListGeneratorTest {
 
        List  liste=  ListGenerator.createList();
 
-        Assertions.assertNull(liste);
+        Assertions.assertNotNull(liste);
         Assertions.assertInstanceOf(List.class,liste);
-
 
     }
 }
