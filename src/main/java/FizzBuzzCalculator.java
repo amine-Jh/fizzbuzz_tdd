@@ -1,6 +1,12 @@
 public class FizzBuzzCalculator {
     public static Object convertValue(int i) {
 
-        return "fuzz";
+
+        if(i==3 ){
+            return "fuzz";
+        }
+        else
+            return 1;
+
     }
 }
