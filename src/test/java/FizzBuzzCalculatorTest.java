@@ -11,7 +11,7 @@ class FizzBuzzCalculatorTest {
 
 
         FizzBuzzCalculator fizzBuzzCalculator=new FizzBuzzCalculator();
-        Object result= FizzBuzzCalculator.convertValue(3);
+        Object result= FizzBuzzCalculator.convertValue(6);
         Assertions.assertEquals("fuzz",result);
     }
 
