@@ -5,8 +5,9 @@ public class FizzBuzzCalculator {
         if(i%3==0 ){
             return "fuzz";
         }
-        else
-            return 1;
+        else if( i==5)
+            return "buzz";
 
+        return i;
     }
 }

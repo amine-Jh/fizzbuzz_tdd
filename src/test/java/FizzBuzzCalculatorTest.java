@@ -14,5 +14,13 @@ class FizzBuzzCalculatorTest {
         Object result= FizzBuzzCalculator.convertValue(6);
         Assertions.assertEquals("fuzz",result);
     }
+    @Test
+    public void shouldReturnBuzzWhen5(){
+
+
+        FizzBuzzCalculator fizzFuzzCalculator=new FizzBuzzCalculator();
+        Object result= FizzBuzzCalculator.convertValue(5);
+        Assertions.assertEquals("buzz",result);
+    }
 
 }
